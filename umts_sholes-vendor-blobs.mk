@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/cameraCalFileDef8M.bin:/system/etc/cameraCalFileDef8M.bin \
     vendor/motorola/umts_sholes/proprietary/etc/01_Vendor_ti_omx.cfg:/system/etc/01_Vendor_ti_omx.cfg
 
+# Moto etc
 PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/gpsconfig.xml:/system/etc/gpsconfig.xml \
     vendor/motorola/umts_sholes/proprietary/etc/excluded-input-devices.xml:/system/etc/excluded-input-devices.xml \
@@ -77,7 +78,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/fw_wlan1271.bin:/system/etc/wifi/fw_wlan1271.bin \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/fw_tiwlan_ap.bin:/system/etc/wifi/fw_tiwlan_ap.bin \
-    vendor/motorola/umts_sholes/proprietary/etc/wifi/tiwlan_ap.ini:/system/etc/wifi/tiwlan_ap.ini \
+    vendor/motorola/umts_sholes/proprietary/etc/wifi/tiwlan_ap.ini:/system/etc/wifi/tiwlan_ap.ini
+
+# Xbin
+PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd \
     vendor/motorola/umts_sholes/proprietary/xbin/pppd:/system/xbin/pppd \
     vendor/motorola/umts_sholes/proprietary/usr/keylayout/sholesp1a-keypad.kl:/system/usr/keylayout/sholesp1a-keypad.kl \
@@ -97,14 +101,20 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp2a-keypad-russian.kcm.bin:/system/usr/keychars/sholesp2a-keypad-russian.kcm.bin \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp1b-keypad.kcm.bin:/system/usr/keychars/sholesp1b-keypad.kcm.bin \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp1a-keypad.kcm.bin:/system/usr/keychars/sholesp1a-keypad.kcm.bin \
-    vendor/motorola/umts_sholes/proprietary/usr/keychars/icestorms0a-keypad.kcm.bin:/system/usr/keychars/icestorms0a-keypad.kcm.bin \
+    vendor/motorola/umts_sholes/proprietary/usr/keychars/icestorms0a-keypad.kcm.bin:/system/usr/keychars/icestorms0a-keypad.kcm.bin
+
+# apps
+PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/motorola/umts_sholes/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/umts_sholes/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
     vendor/motorola/umts_sholes/proprietary/app/PersonalPortal.apk:/system/app/PersonalPortal.apk \
     vendor/motorola/umts_sholes/proprietary/app/QuickOffice.apk:/system/app/QuickOffice.apk \
     vendor/motorola/umts_sholes/proprietary/app/Mynet.apk:/system/app/Mynet.apk \
-    vendor/motorola/umts_sholes/proprietary/app/AudioEffect.apk:/system/app/AudioEffect.apk \
+    vendor/motorola/umts_sholes/proprietary/app/AudioEffect.apk:/system/app/AudioEffect.apk
+
+# Bin
+PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/dnsmasq_mot:/system/bin/dnsmasq_mot \
     vendor/motorola/umts_sholes/proprietary/bin/safe_reboot:/system/bin/safe_reboot \
     vendor/motorola/umts_sholes/proprietary/bin/logfilter-get:/system/bin/logfilter-get \
@@ -130,7 +140,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/location:/system/bin/location \
     vendor/motorola/umts_sholes/proprietary/bin/usbd:/system/bin/usbd \
     vendor/motorola/umts_sholes/proprietary/bin/catcommands:/system/bin/catcommands \
-    vendor/motorola/umts_sholes/proprietary/bin/Hostapd:/system/bin/Hostapd \
+    vendor/motorola/umts_sholes/proprietary/bin/Hostapd:/system/bin/Hostapd
+
+# Libs
+PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/charge_only_mode:/system/bin/charge_only_mode \
     vendor/motorola/umts_sholes/proprietary/lib/libIMGegl.so:/system/lib/libIMGegl.so \
     vendor/motorola/umts_sholes/proprietary/lib/libsrv_um.so:/system/lib/libsrv_um.so \
@@ -207,7 +220,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/m4venc_sn.dll64P:/system/lib/dsp/m4venc_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/mp3dec_sn.dll64P:/system/lib/dsp/mp3dec_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/mpeg4aacdec_sn.dll64P:/system/lib/dsp/mpeg4aacdec_sn.dll64P \
-    vendor/motorola/umts_sholes/proprietary/lib/dsp/mpeg4aacenc_sn.dll64P:/system/lib/dsp/mpeg4aacenc_sn.dll64P \
+    vendor/motorola/umts_sholes/proprietary/lib/dsp/mpeg4aacenc_sn.dll64P:/system/lib/dsp/mpeg4aacenc_sn.dll64P
+
+# TTS
+PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/tts/lang_pico/en-US_lh0_sg.bin:/system/tts/lang_pico/en-US_lh0_sg.bin \
     vendor/motorola/umts_sholes/proprietary/tts/lang_pico/fr-FR_nk0_sg.bin:/system/tts/lang_pico/fr-FR_nk0_sg.bin \
     vendor/motorola/umts_sholes/proprietary/tts/lang_pico/de-DE_gl0_sg.bin:/system/tts/lang_pico/de-DE_gl0_sg.bin \
