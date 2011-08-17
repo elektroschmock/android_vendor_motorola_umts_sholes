@@ -152,9 +152,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libtpa.so:/system/lib/libtpa.so \
     vendor/motorola/umts_sholes/proprietary/lib/libpppd_plugin.so:/system/lib/libpppd_plugin.so \
     vendor/motorola/umts_sholes/proprietary/lib/libpvr2d.so:/system/lib/libpvr2d.so \
-    vendor/motorola/umts_sholes/proprietary/lib/egl/libGLESv2_POWERVR_SGX530_121.so:/system/lib/egl/libGLESv2_POWERVR_SGX530_121.so \
-    vendor/motorola/umts_sholes/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX530_121.so:/system/lib/egl/libGLESv1_CM_POWERVR_SGX530_121.so \
-    vendor/motorola/umts_sholes/proprietary/lib/egl/libEGL_POWERVR_SGX530_121.so:/system/lib/egl/libEGL_POWERVR_SGX530_121.so \
+#   vendor/motorola/umts_sholes/proprietary/lib/egl/libGLESv2_POWERVR_SGX530_121.so:/system/lib/egl/libGLESv2_POWERVR_SGX530_121.so \
+#   vendor/motorola/umts_sholes/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX530_121.so:/system/lib/egl/libGLESv1_CM_POWERVR_SGX530_121.so \
+#   vendor/motorola/umts_sholes/proprietary/lib/egl/libEGL_POWERVR_SGX530_121.so:/system/lib/egl/libEGL_POWERVR_SGX530_121.so \
+    vendor/motorola/umts_sholes/proprietary/lib/egl/libGLESv2_POWERVR_SGX530_121.so:/system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
+    vendor/motorola/umts_sholes/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX530_121.so:/system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
+    vendor/motorola/umts_sholes/proprietary/lib/egl/libEGL_POWERVR_SGX530_121.so:/system/lib/egl/libEGL_POWERVR_SGX530_125.so \
     vendor/motorola/umts_sholes/proprietary/lib/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
     vendor/motorola/umts_sholes/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/motorola/umts_sholes/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
