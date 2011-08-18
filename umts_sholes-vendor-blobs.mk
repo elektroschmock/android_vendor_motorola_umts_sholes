@@ -83,18 +83,15 @@ PRODUCT_COPY_FILES += \
 # Xbin
 PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd \
-    vendor/motorola/umts_sholes/proprietary/xbin/pppd:/system/xbin/pppd \
+    vendor/motorola/umts_sholes/proprietary/xbin/pppd:/system/xbin/pppd
+
+# Usr
+PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/usr/keylayout/sholesp1a-keypad.kl:/system/usr/keylayout/sholesp1a-keypad.kl \
     vendor/motorola/umts_sholes/proprietary/usr/keylayout/sholesp0b-keypad.kl:/system/usr/keylayout/sholesp0b-keypad.kl \
     vendor/motorola/umts_sholes/proprietary/usr/keylayout/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
     vendor/motorola/umts_sholes/proprietary/usr/keylayout/sholesp2a-keypad.kl:/system/usr/keylayout/sholesp2a-keypad.kl \
     vendor/motorola/umts_sholes/proprietary/usr/keylayout/sholesp1b-keypad.kl:/system/usr/keylayout/sholesp1b-keypad.kl \
-    vendor/motorola/umts_sholes/proprietary/bin/panic_daemon:/system/bin/panic_daemon \
-    vendor/motorola/umts_sholes/proprietary/bin/nvm_daemon:/system/bin/nvm_daemon \
-    vendor/motorola/umts_sholes/proprietary/bin/brcm_guci_drv:/system/bin/brcm_guci_drv \
-    vendor/motorola/umts_sholes/proprietary/bin/gki_pd_notifier:/system/bin/gki_pd_notifier \
-    vendor/motorola/umts_sholes/proprietary/bin/bplogd_daemon:/system/bin/bplogd_daemon \
-    vendor/motorola/umts_sholes/proprietary/bin/clean_dex.sh:/system/bin/clean_dex.sh \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp0b-keypad.kcm.bin:/system/usr/keychars/sholesp0b-keypad.kcm.bin \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp2a-keypad-arabic.kcm.bin:/system/usr/keychars/sholesp2a-keypad-arabic.kcm.bin \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp2a-keypad-hebrew.kcm.bin:/system/usr/keychars/sholesp2a-keypad-hebrew.kcm.bin \
@@ -103,15 +100,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp1a-keypad.kcm.bin:/system/usr/keychars/sholesp1a-keypad.kcm.bin \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/icestorms0a-keypad.kcm.bin:/system/usr/keychars/icestorms0a-keypad.kcm.bin
 
-# apps
+# Apps
 PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/motorola/umts_sholes/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/umts_sholes/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
     vendor/motorola/umts_sholes/proprietary/app/PersonalPortal.apk:/system/app/PersonalPortal.apk \
     vendor/motorola/umts_sholes/proprietary/app/QuickOffice.apk:/system/app/QuickOffice.apk \
-    vendor/motorola/umts_sholes/proprietary/app/Mynet.apk:/system/app/Mynet.apk \
-    vendor/motorola/umts_sholes/proprietary/app/AudioEffect.apk:/system/app/AudioEffect.apk
+    vendor/motorola/umts_sholes/proprietary/app/Mynet.apk:/system/app/Mynet.apk
+#    vendor/motorola/umts_sholes/proprietary/app/AudioEffect.apk:/system/app/AudioEffect.apk
 
 # Bin
 PRODUCT_COPY_FILES += \
@@ -140,7 +137,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/location:/system/bin/location \
     vendor/motorola/umts_sholes/proprietary/bin/usbd:/system/bin/usbd \
     vendor/motorola/umts_sholes/proprietary/bin/catcommands:/system/bin/catcommands \
-    vendor/motorola/umts_sholes/proprietary/bin/Hostapd:/system/bin/Hostapd
+    vendor/motorola/umts_sholes/proprietary/bin/Hostapd:/system/bin/Hostapd \
+    vendor/motorola/umts_sholes/proprietary/bin/panic_daemon:/system/bin/panic_daemon \
+    vendor/motorola/umts_sholes/proprietary/bin/nvm_daemon:/system/bin/nvm_daemon \
+    vendor/motorola/umts_sholes/proprietary/bin/brcm_guci_drv:/system/bin/brcm_guci_drv \
+    vendor/motorola/umts_sholes/proprietary/bin/gki_pd_notifier:/system/bin/gki_pd_notifier \
+    vendor/motorola/umts_sholes/proprietary/bin/bplogd_daemon:/system/bin/bplogd_daemon \
+    vendor/motorola/umts_sholes/proprietary/bin/clean_dex.sh:/system/bin/clean_dex.sh
 
 # Libs
 PRODUCT_COPY_FILES += \
