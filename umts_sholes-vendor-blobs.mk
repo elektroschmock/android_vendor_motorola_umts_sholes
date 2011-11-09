@@ -94,8 +94,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/umts_sholes/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
     vendor/motorola/umts_sholes/proprietary/app/PersonalPortal.apk:/system/app/PersonalPortal.apk \
-    vendor/motorola/umts_sholes/proprietary/app/AudioEffect.apk:/system/app/AudioEffect.apk \
-    vendor/motorola/umts_sholes/proprietary/app/Mynet.apk:/system/app/Mynet.apk
+    vendor/motorola/umts_sholes/proprietary/app/Mynet.apk:/system/app/Mynet.apk \
+    vendor/motorola/umts_sholes/proprietary/app/AudioEffectSettings.apk:/system/app/AudioEffectSettings.apk \
+    vendor/motorola/umts_sholes/proprietary/app/CompassCalibrate.apk:/system/app/CompassCalibrate.apk
 
 # Bin
 PRODUCT_COPY_FILES += \
