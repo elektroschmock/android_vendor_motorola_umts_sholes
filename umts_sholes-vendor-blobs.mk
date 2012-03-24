@@ -49,15 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd \
     vendor/motorola/umts_sholes/proprietary/xbin/pppd:/system/xbin/pppd
 
-# Apps
-PRODUCT_COPY_FILES += \
-    vendor/motorola/umts_sholes/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
-    vendor/motorola/umts_sholes/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
-    vendor/motorola/umts_sholes/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
-    vendor/motorola/umts_sholes/proprietary/app/PersonalPortal.apk:/system/app/PersonalPortal.apk \
-    vendor/motorola/umts_sholes/proprietary/app/AudioEffectSettings.apk:/system/app/AudioEffectSettings.apk \
-    vendor/motorola/umts_sholes/proprietary/app/CompassCalibrate.apk:/system/app/CompassCalibrate.apk
-
 # Bin
 PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/safe_reboot:/system/bin/safe_reboot \
